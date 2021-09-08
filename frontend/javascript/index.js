@@ -58,14 +58,11 @@ import 'swiper/css/pagination';
 Swiper.use([Navigation, Pagination]);
 
 const swiper = new Swiper('.swiper', {
-	// optional parameters
 	loop: true,
-	// pagination
 	pagination: {
 		el: '.swiper-pagination',
 		type: 'bullets',
 	},
-	// navigation arrows
 	navigation: {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev',

@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
 :root {
   --primary-color: #82937b;
+  --primary-color-light: #a5b2a0;
+  --primary-color-dark: #404a3c;
   --secondary-color: #d3af5e;
+  --secondary-color-light: #e5d0a1;
+  --secondary-color-dark: #6a521d;
   --light-color: #f1f1f1;
   --mid-color: #707580;
   --dark-color: #2a2d34;
@@ -15,16 +22,31 @@
 body {
   background: var(--body-background);
   color: var(--body-color);
-  font-family: sans-serif;
 }
 
-h1, nav, footer {
-  text-align: center;
+p {
+  color: var(--dark-color);
+  @apply pb-8;
 }
 
-main {
-  margin: 4rem auto;
-  max-width: 60rem;
+h1 {
+  color: var(--primary-color);
+  @apply text-5xl font-display;
+}
+
+h2 {
+  color: var(--primary-color);
+  @apply text-4xl font-display;
+}
+
+h3 {
+  color: var(--primary-color);
+  @apply text-3xl font-display;
+}
+
+/* custom class */
+.btn {
+  @apply rounded-md py-2 px-4 uppercase text-sm;
 }
 
 .mysticky {
@@ -37,9 +59,6 @@ main {
   padding-top: 80px;
 }
 
-p {
-  @apply pb-8;
-}
 
 
 .bg-honeycomb-dark {
