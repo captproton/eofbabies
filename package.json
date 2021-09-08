@@ -13,6 +13,8 @@
     "start": "node start.js"
   },
   "devDependencies": {
+    "alpinejs": "^3.3.2",
+    "animate.css": "^4.1.1",
     "autoprefixer": "^10.3.4",
     "browser-sync": "^2.26.7",
     "concurrently": "^5.2.0",
@@ -25,6 +27,7 @@
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-loader": "^4.3.0",
     "postcss-preset-env": "^6.7.0",
+    "swiper": "^7.0.4",
     "tailwindcss": "^2.2.14",
     "webpack": "^5.39.1",
     "webpack-cli": "^4.7.2",

@@ -1,0 +1,30 @@
+<!-- mobile menu -->
+
+<nav>
+  <section x-data="{ open: false }" class="bg-dark text-secondary">
+    <header class="max-w-7xl mx-auto grid grid-cols-3 gap-4 p-2">
+      <div class="col-span-2">
+        <a href="/">
+          <img src="/images/logo-gold.png" class="w-44"/>
+        </a>
+      </div>
+
+      <button @click="open = ! open" class="col-span-1">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 float-right pr-10 hover:text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <template x-if="!open"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16" /></template>
+          <template x-if="open"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></template>
+        </svg>
+      </button>
+
+      <mobile-menu x-show="open" @click.outside="open = false" class="col-span-3 p-4 uppercase font-body font-normal">
+        <a href="/posts" class="block hover:text-light">Newborn</a>
+        <a href="/posts" class="block hover:text-light">Belly Love</a>
+        <a href="/posts" class="block hover:text-light">Cake Smash</a>
+        
+        <a href="/contact" class="bg-primary text-light py-2 px-3 capitalize rounded-md hover:bg-secondary block w-full text-center mt-4">
+          Contact Us
+        </a>
+      </mobile-menu>
+    </header>
+  </secondary>
+</nav>
