@@ -1,12 +1,17 @@
 <header class="w-full {% if page.url == "/" %} h-screen {% endif %}" {% if page.url == "/" %} style="background-image: url('/images/homepage-harry-potter.jpg'); background-attachment: fixed; background-size: cover; background-position: 0% 25%;"{% endif %}>
-  <section class="max-w-7xl mx-auto grid grid-cols-3 gap-4" style="height: 80px;">
-    <div class="fixed z-30 col-start-1 col-end-2 flex justify-start items-center">
-      <a href="/">
-        <img src="/images/logo-gold.png" class="w-44">
+  <section class="max-w-7xl mx-auto grid grid-cols-3 gap-4" style="height: 70px;">
+    <div x-data="{ logo : false }" class="fixed z-30 col-start-1 col-end-2 flex justify-start items-center">
+      <a @mouseover="logo = true" @mouseout="logo = false" href="/">
+        <template x-if="logo">
+          <img src="/images/logo-gold.png" class="w-36">
+        </template>
+        <template x-if="!logo">
+          <img src="/images/logo-green.png" class="w-36">
+        </template>
       </a>
     </div>
     <div class="col-start-3 col-end-4 flex justify-end items-center">
-      <a href="/contact" class="fixed z-30 bg-secondary hover:bg-secondary-light text-dark hover:text-dark px-3 py-2 rounded-md inline-block">
+      <a href="/contact" class="fixed z-30 font-sans text-sm uppercase bg-green hover:bg-gold text-light-grey hover:text-dark-grey no-underline px-3 py-2 rounded-md inline-block">
         Contact Us
       </a>
     </div>

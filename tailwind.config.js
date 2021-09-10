@@ -4,17 +4,24 @@ module.exports = {
   theme: {
 	  extend: {
 		  colors: {
-			  'primary': '#82937B', // green
-			  'primary-light': '#a5b2a0', // green tint
-			  'primary-dark': '#404a3c', // green shade
-			  'secondary': '#d3af5e', // goldish yellow
-			  'secondary-light': '#e5d0a1', // goldish yellow ting
-			  'secondary-dark': '#6a521d', // goldish yellow shade
-			  'light': '#f1f1f1',
-			  'mid': '#707580',
-			  'dark': '#2A2D34' // cooler black
+			  'green': '#82937B',
+			  'light-green': '#A2BF9E',
+			  'dark-green': '#546D54',
+			  'gold': '#d3af5e',
+			  'light-gold': '#DAD16D',
+			  'dark-gold': '#AC9D5E',
+			  'primary': '#ff0000', // green
+			  'light-grey': '#f5f5f5',
+			  'mid-grey': '#D3D7DF',
+			  'dark-grey': '#2A2D34', // cooler black
+			  'light': '#ff0000',
+			  'mid': '#ff0000',
+			  'dark': '#ff0000' // cooler black
 		  },
 		  fontFamily: {
+			  'sans': ["Open\\ Sans", "sans-serif"],
+			  'serif': ["EB\\ Garamond", "serif"],
+			  'cursive': ["Allison", "cursive"],
 			  'body': ["Open\\ Sans", "sans-serif"],
 			  'display': ["EB\\ Garamond", "serif"],
 			  'hand': ["Allison", "cursive"]
