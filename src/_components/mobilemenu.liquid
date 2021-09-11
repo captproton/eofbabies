@@ -1,11 +1,11 @@
 <!-- mobile menu -->
 
 <nav>
-  <section x-data="{ open: false }" class="bg-dark text-secondary">
-    <header class="max-w-7xl mx-auto grid grid-cols-3 gap-4 p-2">
+  <section x-data="{ open: false }" class="bg-green text-light-grey">
+    <header class="max-w-7xl mx-auto grid grid-cols-3 gap-4">
       <div class="col-span-2">
         <a href="/">
-          <img src="/images/logo-gold.png" class="w-44"/>
+          <img src="/images/logo.png" class="w-44"/>
         </a>
       </div>
 
@@ -16,12 +16,12 @@
         </svg>
       </button>
 
-      <mobile-menu x-show="open" @click.outside="open = false" class="col-span-3 p-4 uppercase font-body font-normal">
-        <a href="/posts" class="block hover:text-light">Newborn</a>
-        <a href="/posts" class="block hover:text-light">Belly Love</a>
-        <a href="/posts" class="block hover:text-light">Cake Smash</a>
+      <mobile-menu x-show="open" @click.outside="open = false" class="col-span-3 p-4 bg-dark-green uppercase font-body font-normal">
+        <a href="/posts" class="block text-light-grey hover:text-gold">Newborn</a>
+        <a href="/posts" class="block text-light-grey hover:text-gold">Belly Love</a>
+        <a href="/posts" class="block text-light-grey hover:text-gold">Cake Smash</a>
         
-        <a href="/contact" class="bg-primary hover:bg-primary-dark text-light py-2 px-3 capitalize rounded-md block w-full text-center mt-4">
+        <a href="/contact" class="bg-gold hover:bg-dark-gold text-dark-grey hover:text-light-grey no-underline py-2 px-3 uppercase rounded-md block w-full text-center mt-4">
           Contact Us
         </a>
       </mobile-menu>
