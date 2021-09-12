@@ -67,9 +67,6 @@ h3 {
   width: 100%;
 }
 
-.mycontent {
+.mysticky + .sticky-padding {
   padding-top: 70px;
 }
-
-
-
