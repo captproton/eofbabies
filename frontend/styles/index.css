@@ -23,7 +23,7 @@
 body {
   background: var(--body-background);
   color: var(--body-color);
-  @apply font-display text-xl;
+  @apply font-display text-xl lg:text-2xl;
 }
 
 a {
