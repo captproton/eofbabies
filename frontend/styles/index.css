@@ -23,7 +23,7 @@
 body {
   background: var(--body-background);
   color: var(--body-color);
-  @apply font-display text-xl lg:text-2xl;
+  @apply font-display text-xl;
 }
 
 a {
@@ -38,17 +38,17 @@ a:hover {
 
 p {
   color: var(--dark-grey);
-  @apply pb-8;
+  @apply pb-10 leading-normal;
 }
 
 h1 {
   color: var(--green);
-  @apply text-6xl pb-12 font-serif;
+  @apply text-5xl pb-12 font-serif;
 }
 
 h2 {
   color: var(--green);
-  @apply text-5xl pb-12 font-serif;
+  @apply text-4xl pb-12 font-serif;
 }
 
 h3 {
@@ -61,6 +61,12 @@ h3 {
   @apply rounded-md py-2 px-4 uppercase text-sm;
 }
 
+.fullsticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .mysticky {
   position: fixed;
   top: 0;
@@ -69,4 +75,8 @@ h3 {
 
 .mysticky + .sticky-padding {
   padding-top: 68px;
+}
+
+.add-sticky-padding-top {
+  padding-top: 55px;
 }
