@@ -1,8 +1,13 @@
 <footer class="bg-green text-dark-grey">
   <section class="max-w-7xl mx-auto grid grid-cols-4 gap-5 pt-20 pb-20 px-10">
     <aside class="col-span-4 lg:col-span-1 text-center lg:text-left">
-      <img src="/images/logo.png" class="w-40"/>
-      <p>Contact me at <a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a></p>
+      <img src="/images/logo.png" class="w-full pb-5 lg:w-40"/>
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+        <a href="mailto:{{ metadata.email }}" class="text-light-grey font-sans text-sm">{{ metadata.email }}</a>
+      </div> 
     </aside>
     
     <aside class="col-span-4 lg:col-span-1 text-center lg:text-left">
@@ -40,9 +45,12 @@
 </footer>
 
 <section id="colophon" class="bg-dark-grey py-5">
-  <aside class="max-w-7xl mx-auto px-10">
+  <aside class="max-w-7xl mx-auto px-10 flex flex-col lg:flex-row lg:space-x-2">
     <span class="text-sm font-body text-light-grey">
-      2021 &copy; 805 Babies Photography | Site by: <a href="mailto:adrianvalenzstudio@icloud.com?subject=I saw your work on 805babies.com">Adrian Valenzuela</a>
+      2021 &copy; 805 Babies Photography.
+    </span>
+    <span class="text-sm font-body text-light-grey">
+      Site by: <a href="mailto:adrianvalenzstudio@icloud.com?subject=I saw your work on 805babies.com">Adrian Valenzuela</a>
     </span>
   </aside>
 </section>
