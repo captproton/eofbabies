@@ -1,24 +1,48 @@
 <footer class="bg-green text-dark-grey">
-  <section class="max-w-7xl mx-auto grid grid-cols-2 gap-5 pt-20 pb-20 px-10">
-    <aside class="col-span-1">
-      <h4>Links</h4>
-      <ul>
+  <section class="max-w-7xl mx-auto grid grid-cols-4 gap-5 pt-20 pb-20 px-10">
+    <aside class="col-span-4 lg:col-span-1 text-center lg:text-left">
+      <img src="/images/logo.png" class="w-40"/>
+      <p>Contact me at <a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a></p>
+    </aside>
+    
+    <aside class="col-span-4 lg:col-span-1 text-center lg:text-left">
+      <h4 class="text-light-grey">More info</h4>
+      <ul class="font-sans text-base footer-list">
         <li><a href="/about" class="no-underline text-light-grey hover:text-gold">About</a></li>
         <li><a href="/posts" class="no-underline text-light-grey hover:text-gold">Blog</a></li>
         <li><a href="/faq" class="no-underline text-light-grey hover:text-gold">FAQ</a></li>
         <li><a href="/investments" class="no-underline text-light-grey hover:text-gold">Investments</a></li>
       </ul>
     </aside>
-    <aside class="col-span-1">
-      <p>Contact me at <a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a></p>
+
+    <aside class="col-span-4 lg:col-span-1 text-center lg:text-left">
+      <h4 class="text-light-grey">Galleries</h4>
+      <ul class="font-sans text-base footer-list">
+        <li><a href="/newborn" class="no-underline text-light-grey hover:text-gold">Newborn</a></li>
+        <li><a href="/bellylove" class="no-underline text-light-grey hover:text-gold">Maternity</a></li>
+        <li><a href="/cakesmash" class="no-underline text-light-grey hover:text-gold">Cake Smash</a></li>
+        <li><a href="/children" class="no-underline text-light-grey hover:text-gold">Children</a></li>
+        <li><a href="/family" class="no-underline text-light-grey hover:text-gold">Family</a></li>
+      </ul>
     </aside>
+    
+    <aside class="col-span-4 lg:col-span-1 text-center lg:text-left">
+      <h4 class="text-light-grey">Social</h4>
+      <ul class="font-sans text-base footer-list">
+        <li><a href="/facebook" class="no-underline text-light-grey hover:text-gold">Facebook</a></li>
+        <li><a href="/instagram" class="no-underline text-light-grey hover:text-gold">Instagram</a></li>
+        <li><a href="/yelp" class="no-underline text-light-grey hover:text-gold">Yelp</a></li>
+        <li><a href="/google-business" class="no-underline text-light-grey hover:text-gold">Google Business</a></li>
+      </ul>
+    </aside>
+
   </section>
 </footer>
 
-<section id="colophon" class="bg-dark-grey">
+<section id="colophon" class="bg-dark-grey py-5">
   <aside class="max-w-7xl mx-auto px-10">
-    <p class="text-sm font-body text-light-grey">
+    <span class="text-sm font-body text-light-grey">
       2021 &copy; 805 Babies Photography | Site by: <a href="mailto:adrianvalenzstudio@icloud.com?subject=I saw your work on 805babies.com">Adrian Valenzuela</a>
-    </p>
+    </span>
   </aside>
 </section>

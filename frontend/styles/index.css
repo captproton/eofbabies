@@ -57,7 +57,17 @@ h3 {
 }
 
 h4 {
-  @apply text-xl pb-5 uppercase font-sans;
+  @apply text-xl uppercase pb-5 font-sans;
+}
+
+ul {
+  @apply pb-10;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: inside;
+  @apply pb-5;
 }
 
 /* custom class */
@@ -94,4 +104,9 @@ h4 {
 
 .add-sticky-padding-top {
   padding-top: 55px;
+}
+
+.footer-list li {
+  list-style-type: none;
+  @apply pb-5;
 }
