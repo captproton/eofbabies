@@ -57,6 +57,17 @@ h3 {
 }
 
 /* custom class */
+
+.has-drop-cap:not(:focus):first-letter {
+    float: left;
+    font-size: 3.4em;
+    line-height: .68;
+    font-weight: 100;
+    margin: .05em .1em 0 0;
+    text-transform: uppercase;
+    font-style:normal
+}
+
 .btn {
   @apply rounded-md py-2 px-4 uppercase text-sm;
 }

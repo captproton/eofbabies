@@ -1,5 +1,12 @@
-<footer class="bg-green text-light-grey">
-  <section class="max-w-5xl mx-auto p-8">
-    Contact me at <a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a>
+<footer class="bg-green text-dark-grey">
+  <section class="max-w-7xl mx-auto grid grid-cols-2 gap-5 pt-20 pb-20 px-10">
+    <aside class="col-span-1">
+      &copy; 805 Babies Photography
+    </aside>
+    <aside class="col-span-1">
+      Contact me at <a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a>
+      <a href="/about" class="no-underline text-light-green hover:text-gold">About</a>
+      <a href="/posts" class="no-underline text-green hover:text-gold">Posts</a>
+    </aside>
   </section>
 </footer>
