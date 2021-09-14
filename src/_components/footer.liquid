@@ -1,12 +1,24 @@
 <footer class="bg-green text-dark-grey">
   <section class="max-w-7xl mx-auto grid grid-cols-2 gap-5 pt-20 pb-20 px-10">
     <aside class="col-span-1">
-      &copy; 805 Babies Photography
+      <h4>Links</h4>
+      <ul>
+        <li><a href="/about" class="no-underline text-light-grey hover:text-gold">About</a></li>
+        <li><a href="/posts" class="no-underline text-light-grey hover:text-gold">Blog</a></li>
+        <li><a href="/faq" class="no-underline text-light-grey hover:text-gold">FAQ</a></li>
+        <li><a href="/investments" class="no-underline text-light-grey hover:text-gold">Investments</a></li>
+      </ul>
     </aside>
     <aside class="col-span-1">
-      Contact me at <a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a>
-      <a href="/about" class="no-underline text-light-green hover:text-gold">About</a>
-      <a href="/posts" class="no-underline text-green hover:text-gold">Posts</a>
+      <p>Contact me at <a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a></p>
     </aside>
   </section>
 </footer>
+
+<section id="colophon" class="bg-dark-grey">
+  <aside class="max-w-7xl mx-auto px-10">
+    <p class="text-sm font-body text-light-grey">
+      2021 &copy; 805 Babies Photography | Site by: <a href="mailto:adrianvalenzstudio@icloud.com?subject=I saw your work on 805babies.com">Adrian Valenzuela</a>
+    </p>
+  </aside>
+</section>

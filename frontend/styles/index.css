@@ -56,6 +56,10 @@ h3 {
   @apply text-3xl pb-12 font-serif;
 }
 
+h4 {
+  @apply text-xl pb-5 uppercase font-sans;
+}
+
 /* custom class */
 
 .has-drop-cap:not(:focus):first-letter {
