@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Your First Post on Bridgetown"
+feature: "/images/slider-15.jpg"
 date:   2021-09-08 12:57:31 -0700
 categories: updates
 ---

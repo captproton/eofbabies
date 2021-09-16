@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap');
 
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
@@ -23,7 +23,7 @@
 body {
   background: var(--body-background);
   color: var(--body-color);
-  @apply font-display lg:text-xl;
+  @apply font-serif lg:text-xl;
 }
 
 a {
@@ -41,19 +41,27 @@ p {
   @apply pb-10 leading-normal;
 }
 
+code, pre {
+  @apply text-sm bg-green text-light-grey rounded-lg py-1 px-2;
+}
+
+pre {
+  @apply mb-5;
+}
+
 h1 {
   color: var(--green);
-  @apply text-4xl lg:text-5xl pb-12 font-serif;
+  @apply text-4xl lg:text-7xl pb-12 font-serif;
 }
 
 h2 {
   color: var(--green);
-  @apply text-4xl pb-12 font-serif;
+  @apply text-5xl pb-5 mt-2 font-serif;
 }
 
 h3 {
   color: var(--green);
-  @apply text-3xl pb-12 font-serif;
+  @apply text-3xl pb-5 mt-2 font-serif;
 }
 
 h4 {

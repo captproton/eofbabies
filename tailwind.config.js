@@ -20,7 +20,8 @@ module.exports = {
 		  },
 		  fontFamily: {
 			  'sans': ["Open\\ Sans", "sans-serif"],
-			  'serif': ["EB\\ Garamond", "serif"],
+			  'serif': ["Cormorant\\ Garamond", "serif"],
+			  'mono': ["IBM\\ Plex\\ Mono", "monospace"],
 			  'cursive': ["Allison", "cursive"],
 			  'body': ["Open\\ Sans", "sans-serif"],
 			  'display': ["EB\\ Garamond", "serif"],
