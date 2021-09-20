@@ -8,14 +8,14 @@
 
 :root {
   --green: #82937b;
-  --light-green: #A2BF9E;
-  --dark-green: #546D54;
+  --light-green: #A7B4A1;
+  --dark-green: #242623;
   --gold: #d3af5e;
-  --light-gold: #DAD16D;
-  --dark-gold: #AC9D5E;
-  --light-grey: #f5f5f5;
-  --mid-grey: #D3D7DF;
-  --dark-grey: #2a2d34;
+  --light-gold: #AE8835;
+  --dark-gold: #AE8835;
+  --light-grey: #fff6ef;
+  --mid-grey: #eddacc;
+  --dark-grey: #ab866c;
   --body-background: var(--light-grey);
   --body-color: var(--dark-grey);  
 }
@@ -54,7 +54,6 @@ h4 {
 }
 
 h3 {
-  color: var(--green);
   @apply text-4xl pb-5 mt-2 font-serif;
 }
 
@@ -76,6 +75,41 @@ li {
   list-style-type: square;
   list-style-position: inside;
   @apply pb-2;
+}
+
+/* table styles */
+table {
+  @apply w-full;
+}
+
+th {
+  @apply bg-dark-grey text-light-grey py-2 px-4;
+}
+
+td {
+  @apply p-4;
+}
+
+tr:nth-child(even) {
+  @apply bg-mid-grey;
+}
+
+hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double var(--dark-grey);
+    color: var(--dark-grey);
+    text-align: center;
+}
+hr:after {
+    content: "❦";
+    display: inline-block;
+    position: relative;
+    top: -0.5em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    @apply bg-light-grey;
 }
 
 /* custom class */

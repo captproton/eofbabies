@@ -13,8 +13,6 @@ subtitle: Details about packages, add-ons, and sessions
 </section>
 
 
-*If you prefer us to add a custom cake for your theme, the cost will be added to your package.*
-
 <section class="grid grid-cols-1 lg:grid-cols-3 gap-5">
   <figure>
     <a href="/investments/newborn">

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: package
 title: Newborn sessions
 subtitle: pricing and package info
 permalink: /investments/newborn/

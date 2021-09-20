@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: package
 title: Maternity sessions
 subtitle: pricing and package info
 permalink: /investments/maternity/

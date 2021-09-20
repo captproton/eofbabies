@@ -5,18 +5,14 @@ module.exports = {
 	  extend: {
 		  colors: {
 			  'green': '#82937B',
-			  'light-green': '#A2BF9E',
-			  'dark-green': '#546D54',
+			  'light-green': '#A7B4A1',
+			  'dark-green': '#242623',
 			  'gold': '#d3af5e',
 			  'light-gold': '#DAD16D',
 			  'dark-gold': '#AC9D5E',
-			  'primary': '#ff0000', // green
-			  'light-grey': '#f5f5f5',
-			  'mid-grey': '#D3D7DF',
-			  'dark-grey': '#2A2D34', // cooler black
-			  'light': '#ff0000',
-			  'mid': '#ff0000',
-			  'dark': '#ff0000' // cooler black
+			  'light-grey': '#FFF6EF',
+			  'mid-grey': '#EDDACC',
+			  'dark-grey': '#AB866C', 
 		  },
 		  fontFamily: {
 			  'sans': ["Open\\ Sans", "sans-serif"],
