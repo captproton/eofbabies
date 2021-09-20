@@ -2,11 +2,26 @@
 import "index.css"
 import "backgrounds.css"
 
+var header = document.getElementById("myHeader");
+
+function myStickyHeader() {
+	var sticky = header.offsetTop;
+	if (window.pageYOffset > sticky) {
+		header.classList.add("mysticky");
+	} else {
+		header.classList.remove("mysticky");
+	}
+}
+
+if (document.getElementById("myHeader")) {
+	window.onscroll = function() {myStickyHeader()}
+};
 // sticky header
 // When the user scrolls the page, execute myFunction 
+/*
 window.onscroll = function() {myStickyHeader()};
 // Get the header
-var header = document.getElementById("myHeader");
+var header = !!document.getElementById("myHeader");
 // Get the offset position of the navbar
 var sticky = header.offsetTop;
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
@@ -17,7 +32,7 @@ function myStickyHeader() {
     header.classList.remove("mysticky");
   }
 }
-
+*/
 // for alpinejs rendering svg
 (function(){ 
   var templates = document.querySelectorAll('svg template');
