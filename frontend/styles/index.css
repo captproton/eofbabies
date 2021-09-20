@@ -11,6 +11,9 @@
     .add-sticky-padding-top {
       padding-top: 55px;
     }
+    .toppad-homepage {
+      padding-top: 68px;
+    }
   }
 }
 
@@ -149,7 +152,7 @@ hr:after {
 }
 
 .mysticky + .default-main-content {
-  padding-top: 68px;
+  @apply lg:toppad-homepage;
 }
 
 .footer-list li {
