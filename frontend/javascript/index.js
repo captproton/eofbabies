@@ -2,21 +2,37 @@
 import "index.css"
 import "backgrounds.css"
 
-var header = document.getElementById("myHeader");
+// sticky header v3
+if (document.getElementById("myHeader")) {
+	window.onscroll = function() {getStuck()};
 
+	var header = document.getElementById("myHeader");
+	var sticky = header.offsetTop;
+	function getStuck() {
+		if (window.pageYOffset > sticky) {
+			header.classList.add("mysticky");
+		} else {
+			header.classList.remove("mysticky");
+		}
+	}
+}
+// sticky header v2
+/*
 function myStickyHeader() {
+	var header = document.getElementById("myHeader");
 	var sticky = header.offsetTop;
 	if (window.pageYOffset > sticky) {
 		header.classList.add("mysticky");
 	} else {
 		header.classList.remove("mysticky");
 	}
-}
+};
 
 if (document.getElementById("myHeader")) {
 	window.onscroll = function() {myStickyHeader()}
 };
-// sticky header
+*/
+// sticky header v1
 // When the user scrolls the page, execute myFunction 
 /*
 window.onscroll = function() {myStickyHeader()};

@@ -6,6 +6,14 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@layer utilities {
+  @variants responsive {
+    .add-sticky-padding-top {
+      padding-top: 55px;
+    }
+  }
+}
+
 :root {
   --green: #82937b;
   --light-green: #A7B4A1;
@@ -140,12 +148,8 @@ hr:after {
   width: 100%;
 }
 
-.mysticky + .sticky-padding {
+.mysticky + .default-main-content {
   padding-top: 68px;
-}
-
-.add-sticky-padding-top {
-  padding-top: 55px;
 }
 
 .footer-list li {
