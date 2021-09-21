@@ -74,6 +74,11 @@ lightGallery(document.getElementById('lightgallery'), {
 	selector: '.lg-item',
 });
 
+// swup js
+import Swup from 'swup';
+const swup = new Swup();
+
+
 
 // custom css file to override css from javascript plugins
 import "custom.css"
