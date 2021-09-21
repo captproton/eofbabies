@@ -7,7 +7,7 @@ permalink: /galleries/newborn/
 <!-- ./src/images/galleries/newborn/*.jpg -->
 
 <section>
-  <div id="lightgallery" class="max-w-7xl mx-auto px-10 grid grid-cols-3 gap-5">
+  <div id="lightgallery" class="max-w-5xl mx-auto px-10 grid grid-cols-3 gap-5">
     <% @images = Dir.glob("./src/images/galleries/newborn/*.jpg") %>
     <% @images.each do |image| %>
       <div class="lg-item" data-src="/images/galleries/newborn/<%= image.split('/').last %>">

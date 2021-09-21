@@ -16,39 +16,7 @@ if (document.getElementById("myHeader")) {
 		}
 	}
 }
-// sticky header v2
-/*
-function myStickyHeader() {
-	var header = document.getElementById("myHeader");
-	var sticky = header.offsetTop;
-	if (window.pageYOffset > sticky) {
-		header.classList.add("mysticky");
-	} else {
-		header.classList.remove("mysticky");
-	}
-};
 
-if (document.getElementById("myHeader")) {
-	window.onscroll = function() {myStickyHeader()}
-};
-*/
-// sticky header v1
-// When the user scrolls the page, execute myFunction 
-/*
-window.onscroll = function() {myStickyHeader()};
-// Get the header
-var header = !!document.getElementById("myHeader");
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myStickyHeader() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("mysticky");
-  } else {
-    header.classList.remove("mysticky");
-  }
-}
-*/
 // for alpinejs rendering svg
 (function(){ 
   var templates = document.querySelectorAll('svg template');
@@ -99,13 +67,13 @@ const swiper = new Swiper('.swiper', {
 });
 
 // lightgallery js
-//import lightGallery from 'lightgallery';
-/*
+import lightGallery from 'lightgallery';
+
 lightGallery(document.getElementById('lightgallery'), {
 	licenseKey: '97696D4D-68C2406A-9C557B65-FAA1BACF',
 	selector: '.lg-item',
 });
-*/
+
 
 // custom css file to override css from javascript plugins
 import "custom.css"

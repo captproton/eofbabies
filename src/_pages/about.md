@@ -20,5 +20,8 @@ permalink: /about/
   <p>
     Enjoying my kids growing up, and busy with sports, I slowed down with weddings. My wedding couples began bringing me their babies to photograph and it reignited a new passion for photography in me. There is something about newborns that gives me so much joy! For the past few years I have been perfecting my craft, and finding and developing a style that works for me. I am ready to confidently shift my focus and creative energy towards newborn photography, and launch my new site: 805 Babies.
   </p>
+
+
+      <p>Almerina has always had a love for Photography. She began her education in Communications with a major in Advertising and had also decided to begin photography. Soon after purchasing her first professional camera, she realized photography had ultimately became her biggest passion. Opting to attend every class available to her, she decided to take the leap to officially become a professional photographer in her hometown of Tamarindo.</p> <p>She began with graduations and festivals then moved on to Quinceañeras and Weddings. Over the years, the couples whose weddings she had once photographed, were now becoming parents, which helped introduce Almerina to a whole new love; maternity photos, newborn portraits and first birthday celebrations!
 </aside>
 
