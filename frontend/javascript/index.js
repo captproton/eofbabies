@@ -75,9 +75,23 @@ lightGallery(document.getElementById('lightgallery'), {
 });
 
 // swup js
-import Swup from 'swup';
-const swup = new Swup();
+//import Swup from 'swup';
+//const swup = new Swup();
+/*
+document.addEventListener('swup:contentReplaced', (event) => {
+	// scroll to top
+	window.scrollTo(0, 0);
+	// home banner display none
+	if (document.getElementById('home-banner')) {
+		var homeBanner = document.getElementById('home-banner');
+		homeBanner.classList.add('hidden');
+	}
+  // do something when content is replaced
+});
+*/
 
+//import Highway from '@dogstudio/highway';
+//const H = new Highway.Core();
 
 
 // custom css file to override css from javascript plugins
