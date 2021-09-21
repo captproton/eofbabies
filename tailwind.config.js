@@ -13,6 +13,9 @@ module.exports = {
 			  'light-grey': '#FFF6EF',
 			  'mid-grey': '#EDDACC',
 			  'dark-grey': '#AB866C', 
+			  'light-neutral': '#FFF6EF',
+			  'mid-neutral': '#EDDACC',
+			  'dark-neutral': '#AB866C', 
 		  },
 		  fontFamily: {
 			  'sans': ["Open\\ Sans", "sans-serif"],
