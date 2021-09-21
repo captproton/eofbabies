@@ -13,7 +13,7 @@ permalink: /investments/newborn/
   You're ready to invest in a beautiful heart-melting set of photos of your newborn, but what's the best option for you? If this is your first child, The Newborn Mini session is a great choice. If the baby is going to have brothers and/or sisters ready to greet the little one then the Mini Plus or Full session can give them the opportunity to take some wonderful photos together.
 </p>
 
-<section class="grid grid-cols-3 gap-2">
+<section class="grid grid-cols-1 lg:grid-cols-3 gap-2">
 <aside>
   <div>
     <span class="font-sans">Newborn Mini Session $150</span>

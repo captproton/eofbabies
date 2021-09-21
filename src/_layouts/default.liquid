@@ -6,11 +6,11 @@
   <body class="{{ page.layout }} {{ page.page_class }}">
     {% render "navbar", metadata: site.metadata, page: page %}
 
-    <div id="swup" class="transition-fade">
-      <main class="default-main-content">
+    <main class="default-main-content">
+      <section id="main" class="transition-fade">
         {{ content }}
-      </main>
-    </div>
+      </section>
+    </main>
 
     {% render "footer", metadata: site.metadata %}
   </body>

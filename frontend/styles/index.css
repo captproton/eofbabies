@@ -154,7 +154,7 @@ hr:after {
 }
 
 .mysticky + .default-main-content {
-  @apply lg:toppad-homepage;
+  padding-top: 68px;
 }
 
 .footer-list li {

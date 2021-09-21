@@ -13,30 +13,43 @@ permalink: /investments/cakesmash/
   First year is here! Make it memorable with a cake smash party!
 </p>
 
-<div>
-  <span class="font-sans">Smash Mini Session $150</span>
-</div>
-- Baby Only
-- 1 set up, theme
-- 5 digital images
-- Additional image $30
+<section class="grid grid-cols-1 lg:grid-cols-3 gap-2">
+  <aside>
+    <div>
+      <span class="font-sans">Smash Mini Session $150</span>
+    </div>
+    <ul>
+      <li>Baby only</li>
+      <li>1 set up, theme</li>
+      <li>5 digital images</li>
+      <li>Additional image $30</li>
+    </ul>
+  </aside>
 
-<div>
-  <span class="font-sans">Smash mini plus $250</span>
-</div>
-- Baby and sibling only
-- 2 set ups. Theme and classic studio
-- 10 digital images
-- Additional image $25
+  <aside>
+    <div>
+      <span class="font-sans">Smash mini plus $250</span>
+    </div>
+    <ul>
+      <li>Baby and sibling only</li>
+      <li>2 set ups. Theme and classic studio</li>
+      <li>10 digital images</li>
+      <li>Additional image $25</li>
+    </ul>
+  </aside>
 
-<div>
-  <span class="font-sans">Smash and splash $300</span>
-</div>
-
-- Baby, sibling
-- 3 set ups, all + tub & ducky set up
-- 15 images
-- Additional image $15
+  <aside>
+    <div>
+      <span class="font-sans">Smash and splash $300</span>
+    </div>
+    <ul>
+      <li>Baby, sibling</li>
+      <li>3 set ups, all + tub & ducky set up</li>
+      <li>15 images</li>
+      <li>Additional image $15</li>
+    </ul>
+  </aside>
+</section>
 
 *If you prefer us to provide a custom cake for your theme, the cost will be added to you package.*
 

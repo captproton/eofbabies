@@ -1,0 +1,18 @@
+---
+layout: gallery
+title: Children gallery
+subtitle: catchy subtitle here
+permalink: /galleries/children/
+---
+<!-- ./src/images/galleries/newborn/*.jpg -->
+
+<section>
+  <div id="lightgallery" class="max-w-5xl mx-auto px-10 grid grid-cols-2 lg:grid-cols-3 gap-5">
+    <% @images = Dir.glob("./src/images/galleries/children/*.jpg") %>
+    <% @images.each do |image| %>
+      <div class="lg-item" data-src="/images/galleries/children/<%= image.split('/').last %>">
+        <img src="/images/galleries/children/<%= image.split('/').last %>"/>
+      </div>
+    <% end %>
+  </div>
+</section>

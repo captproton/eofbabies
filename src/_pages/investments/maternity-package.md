@@ -13,31 +13,44 @@ permalink: /investments/maternity/
   The baby is going to be here soon! Let's take some photos of you being a beautiful vessel carrying your child into the world.
 </p>
 
-<div>
-  <span class="font-sans">Maternity Studio Session $150</span>
-</div>
-- Mom only
-- 30 minutes of photography time
-- 1 set up, one outfit
-- 5 digital images
-- Additional image $30
+<section class="grid grid-cols-1 lg:grid-cols-3 gap-2">
+  <aside>
+    <div>
+      <span class="font-sans">Maternity Studio Session $150</span>
+    </div>
+    <ul>
+      <li>Mom only</li>
+      <li>30 minutes of photography time</li>
+      <li>1 set up, one outfit</li>
+      <li>5 digital images</li>
+      <li>Additional image $30</li>
+    </ul>
+  </aside>
 
-<div>
-  <span class="font-sans">Maternity studio or outdoors $250</span>
-</div>
-- Mom (and partner if preferred)
-- One hour photography time
-- 2 set ups and/or 2 outfits
-- 10 digital images
-- Additional image $25
+  <aside>
+    <div>
+      <span class="font-sans">Maternity studio or outdoors $250</span>
+    </div>
+    <ul>
+      <li>Mom (and partner if preferred)</li>
+      <li>One hour photography time</li>
+      <li>2 set ups and/or 2 outfits</li>
+      <li>10 digital images</li>
+      <li>Additional image $25</li>
+    </ul>
+  </aside>
 
-<div>
-  <span class="font-sans">Maternity Deluxe $400</span>
-</div>
-- Mom, partner and/or children
-- Studio and/or outdoors
-- Professional hair and make up included
-- 2 or more outfit changes
-- 15 digital images
-- Additional image $15
-
+  <aside>
+    <div>
+      <span class="font-sans">Maternity Deluxe $400</span>
+    </div>
+    <ul>
+      <li>Mom, partner and/or children</li>
+      <li>Studio and/or outdoors</li>
+      <li>Professional hair and make up included</li>
+      <li>2 or more outfit changes</li>
+      <li>15 digital images</li>
+      <li>Additional image $15</li>
+    </ul>
+  </aside>
+</section>
