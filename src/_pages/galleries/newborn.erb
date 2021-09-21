@@ -1,16 +1,18 @@
 ---
 layout: gallery
 title: Newborn gallery
-subtitle: the subtitle
+subtitle: catchy subtitle here
 permalink: /galleries/newborn/
 ---
 <!-- ./src/images/galleries/newborn/*.jpg -->
 
 <section>
-  <div class="max-w-7xl mx-auto px-10 border grid grid-cols-3 gap-5">
+  <div id="lightgallery" class="max-w-7xl mx-auto px-10 grid grid-cols-3 gap-5">
     <% @images = Dir.glob("./src/images/galleries/newborn/*.jpg") %>
     <% @images.each do |image| %>
-      <img src="/images/galleries/newborn/<%= image.split('/').last %>"/>
+      <div class="lg-item" data-src="/images/galleries/newborn/<%= image.split('/').last %>">
+        <img src="/images/galleries/newborn/<%= image.split('/').last %>"/>
+      </div>
     <% end %>
   </div>
 </section>

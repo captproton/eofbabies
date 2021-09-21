@@ -1,5 +1,17 @@
 ---
 layout: gallery
 title: Belly Love
+subtitle: catchy subtitle here
 permalink: /galleries/maternity/
 ---
+
+<section>
+  <div id="lightgallery" class="max-w-7xl mx-auto px-10 grid grid-cols-3 gap-5">
+    <% @images = Dir.glob("./src/images/galleries/maternity/*.jpg") %>
+    <% @images.each do |image| %>
+      <div class="lg-item" data-src="/images/galleries/maternity/<%= image.split('/').last %>">
+        <img src="/images/galleries/maternity/<%= image.split('/').last %>"/>
+      </div>
+    <% end %>
+  </div>
+</section>

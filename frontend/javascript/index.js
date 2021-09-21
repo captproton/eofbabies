@@ -98,6 +98,15 @@ const swiper = new Swiper('.swiper', {
 	},
 });
 
+// lightgallery js
+//import lightGallery from 'lightgallery';
+/*
+lightGallery(document.getElementById('lightgallery'), {
+	licenseKey: '97696D4D-68C2406A-9C557B65-FAA1BACF',
+	selector: '.lg-item',
+});
+*/
+
 // custom css file to override css from javascript plugins
 import "custom.css"
 import "animate.css"
