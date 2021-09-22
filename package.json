@@ -35,7 +35,6 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
-    "@dogstudio/highway": "^2.2.1",
     "lightgallery": "^2.2.1",
     "swup": "^2.0.14"
   }
