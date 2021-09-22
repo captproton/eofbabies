@@ -9,8 +9,13 @@ permalink: /galleries/newborn/
 <section>
   <div id="lightgallery" class="max-w-5xl mx-auto px-10 grid grid-cols-2 lg:grid-cols-3 gap-5">
     <% @images = Dir.glob("./src/images/galleries/newborn/*.jpg") %>
-    <% @images.each do |image| %>
-      <div class="lg-item" data-src="/images/galleries/newborn/<%= image.split('/').last %>">
+    <% @images.each_with_index do |image, index| %>
+      <div  data-index="<%= index %>"
+            <% if index > 6 %>
+              loading="lazy"
+            <% end %>
+            class="lg-item" 
+            data-src="/images/galleries/newborn/<%= image.split('/').last %>">
         <img src="/images/galleries/newborn/<%= image.split('/').last %>"/>
       </div>
     <% end %>
