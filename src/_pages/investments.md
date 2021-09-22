@@ -1,17 +1,24 @@
 ---
 layout: page
 title: Investments
-subtitle: Details about packages, add-ons, and sessions
+subtitle: Heirlooms to treasure for a lifetime
 ---
 
 <img src="/images/investments-feature.jpg" class="rounded-lg"/>
+<section class="text-center">
+<p>Session fee $150</p>
+<p>Session fee includes your shooting time, props and wardrobe use, processing the images and a personalized ordering session.</p>
+<p class="italic">Digital images, prints and products are sold seperately.</p>
+<p>To learn more about the sessions themselves you can click on the thumbnails below or for more info you can refer to our <a href="/faq">frequently asked questions</a> page.</p>
+</section>
 
-<section>
+<!--
+<section class="hidden">
   <p>All session fees start at $150 and includes your shooting time, props and wardrobe use, processing the images and a personalized ordering session.</p>
 
   <p>Digital images, prints and products are sold separately. To learn more about the sessions themselves you can click on the thumbnails below or for more general questions you can refer to our <a href="/faq">frequently asked questions page</a>.</p>
 </section>
-
+-->
 
 <section class="grid grid-cols-1 lg:grid-cols-3 gap-5">
   <figure>

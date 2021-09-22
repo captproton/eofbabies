@@ -1,7 +1,7 @@
 ---
 layout: package
 title: Cake Smash sessions
-subtitle: pricing and package info
+subtitle: Buy only what you love
 permalink: /investments/cakesmash/
 ---
 

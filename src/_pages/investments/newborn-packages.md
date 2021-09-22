@@ -1,7 +1,7 @@
 ---
 layout: package
 title: Newborn sessions
-subtitle: pricing and package info
+subtitle: Buy only what you love
 permalink: /investments/newborn/
 ---
 
